@@ -1,4 +1,4 @@
-# Visual Studio Code Container Based Environment for Azure CLI
+# Container Based Environment for Azure CLI
 
 ## Using Bare Container
 
