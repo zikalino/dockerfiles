@@ -1,1 +1,1 @@
-cd /azure-cli-extensions; git pull; bash
+cd /workspaces/az/azure-cli-extensions; git pull; bash

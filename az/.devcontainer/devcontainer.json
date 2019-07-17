@@ -1,6 +1,6 @@
 {
 	"name": "Azure CLI Dev",
-	"dockerFile": "Dockerfile",
+	"image": "zikalino/az",
 	"context": ".",
 	"extensions": [
 		"ms-python.python"
