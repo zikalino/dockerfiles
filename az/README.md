@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Visual Studio Code Insiders Edition
-- Extension
+- Remote - Containers Extension
 - Docker
 
 ## Using Bare Container
@@ -39,3 +39,6 @@ Launch Visual Studio Code Insiders from **az** folder:
 
 	code-insiders .
 
+You will be asked if you want to **Reopen in Container**.
+Visual Studio Code will perform appropriate setup (only once).
+After that is completed you can set a breakpoint and press **F5** to start debugging Azure CLI.
