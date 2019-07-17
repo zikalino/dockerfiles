@@ -27,16 +27,15 @@ Documentation can be found here:
 
 https://code.visualstudio.com/docs/remote/containers
 
-	git clone 
+Clone this repo and clone Azure CLI And Azure CLI Extensions repo:
+
+	git clone https://github.com/zikalino/tools.git
+	cd tools/az
+	git clone https://github.com/Azure/azure-cli.git
+	git clone https://github.com/Azure/azure-cli-extensions.git
 
 
-Clone Azure CLI repositories in this folder:
-- azure-cli
-- azure-cli-extensions
-- azure-cli-dev-tools
-
-Run:
+Launch Visual Studio Code Insiders from **az** folder:
 
 	code-insiders .
 
-in this repository.
