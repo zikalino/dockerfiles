@@ -1,11 +1,5 @@
 # Visual Studio Code Container Based Environment for Azure CLI
 
-## Prerequisites
-
-- Visual Studio Code Insiders Edition
-- Remote - Containers Extension
-- Docker
-
 ## Using Bare Container
 
 To use container, just run:
@@ -26,6 +20,15 @@ You may need to do **git pull** to update the source.
 Documentation can be found here:
 
 https://code.visualstudio.com/docs/remote/containers
+
+### Prerequisites
+
+- Visual Studio Code Insiders Edition
+- Remote - Containers Extension
+- Docker
+
+
+### Setup
 
 Clone this repo and clone Azure CLI And Azure CLI Extensions repo:
 
