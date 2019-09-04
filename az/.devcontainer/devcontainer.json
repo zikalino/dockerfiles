@@ -1,0 +1,12 @@
+{
+	"name": "Azure CLI Dev",
+	"image": "zikalino/az",
+	"context": ".",
+	"extensions": [
+		"ms-python.python"
+	],
+	"settings": {
+		"python.pythonPath": "/env/bin/python3"
+	},
+	"postCreateCommand": "bash"
+}

@@ -10,9 +10,5 @@ ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
 RUN pip install azdev
 
-RUN cd /azure-cli-extensions; git pull
-RUN cd /azure-cli-extensions; git checkout addin-apimgmt-extension
-RUN azdev setup -r /azure-cli-extensions -e apim -c /azure-cli
-RUN pip install azure-mgmt-apimanagement
-ADD run.sh /run.sh
-ENTRYPOINT ["bash", "/run.sh"]
+RUN cd /workspaces/az/azure-cli-extensions; git checkout addin-apimgmt-extension
+RUN azdev setup -r /workspaces/az/azure-cli-extensions -e apimgmt -c /workspaces/az/azure-cli
