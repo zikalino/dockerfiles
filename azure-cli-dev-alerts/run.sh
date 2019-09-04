@@ -1,0 +1,1 @@
+cd /azure-cli; git pull; bash

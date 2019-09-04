@@ -1,0 +1,1 @@
+cd /azure-cli-extensions; git pull; bash
