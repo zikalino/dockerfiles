@@ -8,11 +8,11 @@ You may need to call **git pull** to make sure repositories are up to date.
 
 ## Using with your local repositories 
 
-	docker run -it --rm -v c:\dev\autorest.cli:/autorest.cli -v c:\dev\azure-rest-api-specs:/azure-rest-api-specs -v c:\dev\generated:/generated --entrypoint bash zikalino/azure-sdk-tools
+	docker run -it --rm -v c:\dev\autorest.cli:/autorest.cli -v c:\dev\azure-rest-api-specs:/azure-rest-api-specs -v c:\dev\generated:/generated zikalino/azure-sdk-tools
 
 or
 
-	docker run -it --rm -v c:\dev\azure-rest-api-specs:/azure-rest-api-specs -v c:\dev\generated:/generated --entrypoint bash zikalino/azure-sdk-tools
+	docker run -it --rm -v c:\dev\azure-rest-api-specs:/azure-rest-api-specs -v c:\dev\generated:/generated zikalino/azure-sdk-tools
 
 if you want to use **autorest.cli** released as an NPM package
 
