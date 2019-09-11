@@ -25,4 +25,16 @@ Using **autorest.cli** from local folder:
 Using **autorest.cli** from NPM package:
 
 	autorest --cli --use="autorest.cli@~0.1.7" --swagger-integration-test --output-folder=/generated /azure-rest-api-specs/specification/healthcareapis/resource-manager/readme.md
+	
+## Generating Azure CLI Module
+
+Using **autorest.cli** from local folder:
+
+	autorest --cli --use=/autorest.cli --cli-module --extension --output-folder=/generated /azure-rest-api-specs/specification/healthcareapis/resource-manager/readme.md
+
+Using **autorest.cli** from NPM package:
+
+	autorest --cli --use="autorest.cli@~0.1.7" --cli-module --extension --output-folder=/generated /azure-rest-api-specs/specification/healthcareapis/resource-manager/readme.md
+
+
 
